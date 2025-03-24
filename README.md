@@ -1,9 +1,7 @@
 # dugsiiye-exercises
-
 Full Stack Software Engineering Mentorship 2025
 
 ## Waxyaabaha aan Ku Qaadan Doono Full Stack Software Engineer
-
 - **Frontend Development**  
   - HTML, CSS, JS, React, Next.js, TypeScript, & UI/UX
 
