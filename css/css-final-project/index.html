@@ -84,10 +84,13 @@
       <div class="container">
         <div class="features-header">
           <h2>Choose <em>Program</em></h2>
-          <img
-            src="https://templatemo.com/templates/templatemo_548_training_studio/assets/images/line-dec.png"
-            alt="waves"
-          />
+          <div>
+            <img
+              src="https://templatemo.com/templates/templatemo_548_training_studio/assets/images/line-dec.png"
+              alt="waves"
+            />
+          </div>
+
           <p>
             Training Studio is free CSS template for gyms and fitness centers.
             You are allowed to use this layout for your business website.
@@ -99,9 +102,9 @@
     <!--  -->
     <section>
       <div class="container">
-        <div class="features-grid">
+        <div class="grid-2">
           <!-- Item 1 -->
-          <div class="feature-item">
+          <div class="flex">
             <div class="feature-icon">
               <img
                 src="https://templatemo.com/templates/templatemo_548_training_studio/assets/images/features-first-icon.png"
@@ -119,7 +122,7 @@
           </div>
 
           <!-- Item 2 -->
-          <div class="feature-item">
+          <div class="flex">
             <div class="feature-icon">
               <img
                 src="https://templatemo.com/templates/templatemo_548_training_studio/assets/images/features-first-icon.png"
@@ -139,7 +142,7 @@
           </div>
 
           <!-- Item 3 -->
-          <div class="feature-item">
+          <div class="flex">
             <div class="feature-icon">
               <img
                 src="https://templatemo.com/templates/templatemo_548_training_studio/assets/images/features-first-icon.png"
@@ -157,7 +160,7 @@
           </div>
 
           <!-- Item 4 -->
-          <div class="feature-item">
+          <div class="flex">
             <div class="feature-icon">
               <img
                 src="https://templatemo.com/templates/templatemo_548_training_studio/assets/images/features-first-icon.png"
@@ -175,7 +178,7 @@
           </div>
 
           <!-- Item 5 -->
-          <div class="feature-item">
+          <div class="flex">
             <div class="feature-icon">
               <img
                 src="https://templatemo.com/templates/templatemo_548_training_studio/assets/images/features-first-icon.png"
@@ -193,7 +196,7 @@
           </div>
 
           <!-- Item 6 -->
-          <div class="feature-item">
+          <div class="flex">
             <div class="feature-icon">
               <img
                 src="https://templatemo.com/templates/templatemo_548_training_studio/assets/images/features-first-icon.png"
@@ -233,10 +236,13 @@
       <div class="container">
         <div class="features-header">
           <h2>Our <em>Classes</em></h2>
-          <img
-            src="https://templatemo.com/templates/templatemo_548_training_studio/assets/images/line-dec.png"
-            alt="Divider"
-          />
+          <div>
+            <img
+              src="https://templatemo.com/templates/templatemo_548_training_studio/assets/images/line-dec.png"
+              alt="Divider"
+            />
+          </div>
+
           <p>
             Nunc urna sem, laoreet ut metus id, aliquet consequat magna. Sed
             viverra ipsum dolor, ultricies fermentum massa consequat eu.
@@ -248,56 +254,66 @@
     <!-- Classes Section -->
     <section>
       <div class="container">
-        <div class="features-grid">
+        <!-- features-grid -->
+        <div class="grid-2">
           <!-- Tabs Section -->
-          <div class="tabs-column">
-            <div>
-              <!-- tab 1 -->
-              <div class="class-link active" onclick="showTab('tabs-1', this)">
-                <div class="card">
+          <div>
+            <!-- tab 1 -->
+            <div
+              class="class-link flex active"
+              onclick="showTab('tabs-1', this)"
+            >
+              <div class="card">
+                <div>
                   <img
                     src="https://templatemo.com/templates/templatemo_548_training_studio/assets/images/tabs-first-icon.png"
                     alt="Class"
                   />
-                  <p>First Training Class</p>
                 </div>
-              </div>
-              <!-- tab 2 -->
-              <div class="class-link" onclick="showTab('tabs-2', this)">
-                <div class="card">
-                  <img
-                    src="https://templatemo.com/templates/templatemo_548_training_studio/assets/images/tabs-first-icon.png"
-                    alt="Class"
-                  />
 
-                  <p>Second Training Class</p>
-                </div>
+                <p>First Training Class</p>
               </div>
-              <!-- tab 3 -->
-              <div class="class-link" onclick="showTab('tabs-3', this)">
-                <div class="card">
+            </div>
+            <!-- tab 2 -->
+            <div class="class-link flex" onclick="showTab('tabs-2', this)">
+              <div class="card">
+                <div>
                   <img
                     src="https://templatemo.com/templates/templatemo_548_training_studio/assets/images/tabs-first-icon.png"
                     alt="Class"
                   />
-                  <p>Third Training Class</p>
                 </div>
+                <p>Second Training Class</p>
               </div>
-              <!-- tab 4 -->
-              <div class="class-link" onclick="showTab('tabs-4', this)">
-                <div class="card">
+            </div>
+            <!-- tab 3 -->
+            <div class="class-link flex" onclick="showTab('tabs-3', this)">
+              <div class="card">
+                <div>
                   <img
                     src="https://templatemo.com/templates/templatemo_548_training_studio/assets/images/tabs-first-icon.png"
                     alt="Class"
                   />
-                  <p>Fourth Training Class</p>
                 </div>
+                <p>Third Training Class</p>
               </div>
+            </div>
+            <!-- tab 4 -->
+            <div class="class-link flex" onclick="showTab('tabs-4', this)">
+              <div class="card">
+                <div>
+                  <img
+                    src="https://templatemo.com/templates/templatemo_548_training_studio/assets/images/tabs-first-icon.png"
+                    alt="Class"
+                  />
+                </div>
+                <p>Fourth Training Class</p>
+              </div>
+            </div>
 
-              <div class="class-link">
-                <div class="card" id="car-btn">
-                  <a href="#top">View All Schedules</a>
-                </div>
+            <div class="class-link flex">
+              <div class="card" id="car-btn">
+                <a href="#top">View All Schedules</a>
               </div>
             </div>
           </div>
@@ -305,11 +321,14 @@
           <!-- Content Section -->
           <div class="content-column">
             <section class="tabs-content">
-              <article id="tabs-1" class="tab active">
-                <img
-                  src="https://templatemo.com/templates/templatemo_548_training_studio/assets/images/training-image-01.jpg"
-                  alt="First Class"
-                />
+              <article id="tabs-1" class="tab flex active">
+                <div>
+                  <img
+                    src="https://templatemo.com/templates/templatemo_548_training_studio/assets/images/training-image-01.jpg"
+                    alt="First Class"
+                  />
+                </div>
+
                 <h4>First Training Class</h4>
                 <p>
                   Phasellus convallis mauris sed elementum vulputate. Donec
@@ -319,7 +338,7 @@
                   imperdiet, molestie nunc ut, accumsan diam.
                 </p>
               </article>
-              <article id="tabs-2" class="tab">
+              <article id="tabs-2" class="tab flex">
                 <img
                   src="https://templatemo.com/templates/templatemo_548_training_studio/assets/images/training-image-02.jpg"
                   alt="Second Class"
@@ -334,7 +353,7 @@
                   parturient montes, nascetur ridiculus mus.
                 </p>
               </article>
-              <article id="tabs-3" class="tab">
+              <article id="tabs-3" class="tab flex">
                 <img
                   src="https://templatemo.com/templates/templatemo_548_training_studio/assets/images/training-image-03.jpg"
                   alt="Third Class"
@@ -348,11 +367,14 @@
                   semper vel, accumsan a neque.
                 </p>
               </article>
-              <article id="tabs-4" class="tab">
-                <img
-                  src="https://templatemo.com/templates/templatemo_548_training_studio/assets/images/training-image-04.jpg"
-                  alt="Fourth Class"
-                />
+              <article id="tabs-4" class="tab flex">
+                <div>
+                  <img
+                    src="https://templatemo.com/templates/templatemo_548_training_studio/assets/images/training-image-04.jpg"
+                    alt="Fourth Class"
+                  />
+                </div>
+
                 <h4>Fourth Training Class</h4>
                 <p>
                   Pellentesque habitant morbi tristique senectus et netus et
@@ -362,7 +384,7 @@
                 </p>
               </article>
 
-              <article id="tabs-4" class="tab"></article>
+              <article id="tabs-4" class="tab flex"></article>
             </section>
             <a href="#schedule" class="btn">View Schedule</a>
           </div>
@@ -373,12 +395,14 @@
     <!-- Schedule -->
     <section id="schedule" class="call-to-action schedule">
       <div class="container">
-        <div class="feature-heading">
+        <div class="features-header remove-space">
           <h2>Classes <em>Schedule</em></h2>
-          <img
-            src="https://templatemo.com/templates/templatemo_548_training_studio/assets/images/line-dec.png"
-            alt="Line Decoration"
-          />
+          <div class="table-img">
+            <img
+              src="https://templatemo.com/templates/templatemo_548_training_studio/assets/images/line-dec.png"
+              alt="Line Decoration"
+            />
+          </div>
           <p>
             Nunc urna sem, laoreet ut metus id, aliquet consequat magna. Sed
             viverra ipsum dolor, ultricies fermentum massa consequat eu.
@@ -388,13 +412,13 @@
         <!-- Jadwalka Maalmaha -->
         <ul class="schedule-filter">
           <li data-tsfilter="monday" class="active">Monday</li>
-          <span>/</span>
+          <span class="slash">/</span>
           <li data-tsfilter="tuesday">Tuesday</li>
-          <span>/</span>
+          <span class="slash">/</span>
           <li data-tsfilter="wednesday">Wednesday</li>
-          <span>/</span>
+          <span class="slash">/</span>
           <li data-tsfilter="thursday">Thursday</li>
-          <span>/</span>
+          <span class="slash">/</span>
           <li data-tsfilter="friday">Friday</li>
         </ul>
 
@@ -422,10 +446,13 @@
       <div class="container">
         <div class="features-header">
           <h2>Expert <em>Trainers</em></h2>
-          <img
-            src="https://templatemo.com/templates/templatemo_548_training_studio/assets/images/line-dec.png"
-            alt=""
-          />
+          <div>
+            <img
+              src="https://templatemo.com/templates/templatemo_548_training_studio/assets/images/line-dec.png"
+              alt=""
+            />
+          </div>
+
           <p>
             Nunc urna sem, laoreet ut metus id, aliquet consequat magna. Sed
             viverra ipsum dolor, ultricies fermentum massa consequat eu.
@@ -436,8 +463,9 @@
 
     <section>
       <div class="container">
-        <div class="trainers-grid">
-          <div class="trainer-flex">
+        <!-- trainers-grid -->
+        <div class="grid-3">
+          <div class="trainers">
             <div class="image-thumb">
               <img
                 src="https://templatemo.com/templates/templatemo_548_training_studio/assets/images/first-trainer.jpg"
@@ -479,7 +507,7 @@
             </div>
           </div>
 
-          <div class="trainer-flex">
+          <div class="trainers">
             <div class="image-thumb">
               <img
                 src="https://templatemo.com/templates/templatemo_548_training_studio/assets/images/second-trainer.jpg"
@@ -521,7 +549,7 @@
             </div>
           </div>
 
-          <div class="trainer-flex">
+          <div class="trainers">
             <div class="image-thumb">
               <img
                 src="https://templatemo.com/templates/templatemo_548_training_studio/assets/images/third-trainer.jpg"
@@ -569,7 +597,7 @@
     <!-- Contact Us -->
     <section id="contact-us">
       <div class="container">
-        <div class="features-grid">
+        <div class="grid-2">
           <div id="map">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1726.0916888126637!2d45.312701463234255!3d2.0330982130102955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2sso!4v1741973520583!5m2!1sen!2sso"
