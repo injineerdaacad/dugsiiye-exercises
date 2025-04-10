@@ -663,9 +663,8 @@ footer .text-link {
     top: 0;
     left: 16%;
     width: 60vw;
-    height: 32vh;
-    margin-top: 5.5rem;
-    margin-bottom: -15rem;
+    height: 33vh;
+    margin-top: 5rem;
     align-items: center;
     justify-content: center;
     z-index: 999;
@@ -682,7 +681,7 @@ footer .text-link {
 
   .mobile-links li a {
     display: inline-block;
-    width: 57.7vw;
+    width: 60vw;
     padding: 0.725rem 0;
     text-align: center;
     font-size: 1rem;
