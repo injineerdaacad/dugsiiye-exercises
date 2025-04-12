@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Engineer Honest" />
+    <title>My Personal Blog</title>
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header>
+      <h1>My Personal Blog</h1>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+      <article>
+        <header>
+          <h2>Blog Post Title</h2>
+          <p>Published on <time datetime="2024-03-24">March 24, 2024</time></p>
+        </header>
+        <p>This is the content of the blog post...</p>
+      </article>
+    </main>
+
+    <!-- Sidebar Section -->
+    <aside>
+      <section>
+        <h3>About Me</h3>
+        <p>I'm a web developer...</p>
+      </section>
+      <section>
+        <h3>Follow Me</h3>
+        <ul>
+          <li><a href="https://twitter.com/myprofile">Twitter</a></li>
+        </ul>
+      </section>
+    </aside>
+
+    <!-- External Links -->
+    <ul>
+      <li>
+        <a href="https://www.youtube.com" target="_blank">Visit Youtube</a>
+      </li>
+    </ul>
+
+    <!-- Images -->
+    <figure>
+      <img
+        src="../assests/images/eng-honest.jpg"
+        width="300"
+        alt="Engineer Honest image"
+        title="Title of the Image"
+      />
+      <figcaption>Engineer Honest image</figcaption>
+    </figure>
+
+    <figure>
+      <img
+        width="300"
+        src="https://images.unsplash.com/photo-1710403690356-e651c9730491?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0fHx8ZW58MHx8fHx8"
+        alt="Tee cup"
+        title="Title of the Image"
+      />
+      <figcaption>Tee cup</figcaption>
+    </figure>
+
+    <!-- Audio Section -->
+    <audio controls>
+      <source src="../assests/audios/ramadan-mubarak.mp3" type="audio/mpeg" />
+      Your browser does not support the audio element.
+    </audio>
+
+    <!-- Video Section -->
+    <video controls width="250" autoplay muted loop>
+      <source src="../assests/videos/university.mp4" type="video/mp4" />
+      <track
+        src="../assests/videos/eng-honest-subtitles.vtt"
+        kind="subtitles"
+        srclang="en"
+        label="English"
+      />
+      Your browser does not support the video tag.
+    </video>
+
+    <!-- Embedded Content -->
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/jtFlzNdhLyE?si=22Vk7Nb-7EdTkd22"
+      title="YouTube video player"
+      frameborder="0"
+      allowfullscreen
+    ></iframe>
+
+    <!-- List of Hobbies -->
+    <section>
+      <h2>My Hobbies</h2>
+      <ul>
+        <li>Football</li>
+        <li>Swimming</li>
+        <li>Walking</li>
+      </ul>
+    </section>
+
+    <!-- Web Design Languages -->
+    <section>
+      <h2>Web Design Languages</h2>
+      <ol>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+      </ol>
+    </section>
+
+    <!-- Table Section -->
+    <section>
+      <h2>Programming Languages and Difficulty Level</h2>
+      <table border="1">
+        <tr>
+          <th>Language</th>
+          <th>Difficulty Level</th>
+        </tr>
+        <tr>
+          <td>Python</td>
+          <td>Beginner</td>
+        </tr>
+        <tr>
+          <td>JavaScript</td>
+          <td>Intermediate</td>
+        </tr>
+      </table>
+    </section>
+
+    <!-- Contact Form -->
+    <section>
+      <h2>Contact Form</h2>
+      <form action="" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+        <br /><br />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+        <br /><br />
+
+        <label for="department">Department:</label>
+        <select id="department" name="department">
+          <option value="marketing">Marketing</option>
+          <option value="development">Development</option>
+          <option value="design">Design</option>
+          <option value="sales">Sales</option>
+        </select>
+        <br /><br />
+
+        <fieldset>
+          <legend>Preferred Contact Method</legend>
+          <label
+            ><input type="radio" name="contact" value="email" /> Email</label
+          >
+          <label
+            ><input type="radio" name="contact" value="phone" /> Phone</label
+          >
+          <label><input type="radio" name="contact" value="mail" /> Mail</label>
+        </fieldset>
+        <br />
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+      <p>Copyright &copy; 2024 by My Name. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
